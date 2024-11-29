@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span > a {
+  color: rgb(0, 153, 0);
+}
+
+a:hover {
+  color: #99ff99;
+  /* text-shadow: 
+    0 0 2px #00cc0075, 
+    0 0 5px #00cc0075; */
+}
+
+.white-glow {
+  color: #fff;
+  text-shadow: 
+    0 0 5px #fff;
+}
