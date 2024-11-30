@@ -14,7 +14,7 @@
 </div>
 
 <div class="desc">
-  Häng med i årets roligaste julkalender med D-sektionen! Gå med i den här leaderboarden på <span><a href="https://adventofcode.com/leaderboard/private" class="green-glow">adventofcode.com</a></span> med koden <span class="white-glow">2321388-2646ec81</span>, och följ den via <span><a href="https://dsek.se/aoc" class="green-glow">dsek.se/aoc</a></span>. Uppdateras var 15:e minut.
+  Häng med i årets roligaste julkalender med D-sektionen! Gå med i den här leaderboarden på <span><a href="https://adventofcode.com/leaderboard/private" class="green-glow">adventofcode.com</a></span> med koden <span class="white-glow">2321388-2646ec81</span>, och följ den via <span><a href="https://aoc.dsek.se" class="green-glow">aoc.dsek.se</a></span>. Uppdateras var 15:e minut.
 </div>
 
 <style>
