@@ -1,8 +1,8 @@
-import type { LeaderboardProps } from "$lib/Types.svelte";
+import type { Leaderboard } from "$lib/Types.svelte";
 import { readFileSync } from "node:fs";
 
-export function load(): LeaderboardProps {
+export function load(): Leaderboard {
   const json = readFileSync("./leaderboards/2024.json", "utf-8");
-  const leaderboard: LeaderboardProps = JSON.parse(json.toString());
+  const leaderboard: Leaderboard = JSON.parse(json.toString());
   return leaderboard;
 }
