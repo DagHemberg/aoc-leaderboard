@@ -3,7 +3,7 @@ import { AOC_SESSION } from "$env/static/private";
 import { scheduleJob } from "node-schedule";
 import { writeFileSync } from "fs";
 
-const job = scheduleJob("* */15 * * * *", async () => {
+const job = scheduleJob("0 */15 * * * *", async () => {
   if (new Date().getMonth() != 11) return;
   const raw = await fetch(
     "https://adventofcode.com/2024/leaderboard/private/view/2321388.json",

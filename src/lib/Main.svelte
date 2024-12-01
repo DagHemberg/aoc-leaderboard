@@ -31,6 +31,11 @@
 </main>
 
 <style>
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("/fonts/SourceCodePro-Regular.otf");
+  }
+  
   :global(html) {
     font-family: "Source Code Pro";
     font-size: 1.05vw;
